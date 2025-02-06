@@ -1,0 +1,123 @@
+"Day 1 learning notes go here" 
+
+Topic 1: How the Internet Works
+kJ Brief History: Web 1.0 → Web 3.0
+
+
+Web 1.0 (1990s – early 2000s) – The "Read-Only" Wed
+L Websites were static with no interactivity*
+L Built using HTML and CSS (no JavaScript)*
+L Users could only read content; there was no user engagement*
+L No social media or real-time interactions*
+L Example: Early Yahoo! pages, simple blogs.
+
+
+ Web 2.0 (2004 – Present) – The "Read-Write" Wed
+L Enabled dynamic and interactive experiences*
+L Technologies like AJAX and JavaScript allowed live updates without page
+reloads*
+L Social media, e-commerce, and cloud applications emerged*
+L Users could generate content (comments, reviews, blog posts, real-time chats)*
+L Example: Facebook, YouTube, Twitter, Amazon.
+
+
+ Web 3.0 (Emerging) – The "Decentralized" Wed
+L Uses blockchain technology to ensure decentralization*
+L AI-driven and privacy-focused to give users more control over data*
+L Example: Cryptocurrencies, smart contracts, decentralized apps (Ethereum,
+Filecoin)
+
+
+SA Basics of Computer Communication & Data Transmission
+
+
+Data Transmission & PacketL
+C The internet sends data in packets, which are small chunks of informationb
+C Each packet has4
+C Header (destination and sender information)b
+C Payload (actual data being transferred)b
+C Uses TCP/IP protocols to ensure data reaches the right destination.
+
+
+ Two Types of CommunicatioN
+C Wired (Ethernet, Fiber Optics) – More stable and faster; used in officesb
+C Wireless (Wi-Fi, 5G) – Provides flexibility but can be slower
+
+vQ Domain Names, IP Addresses, MAC Addresses, and Routing
+
+
+IP Address (Internet Protocol AddressC
+R A unique number assigned to every internet-connected devicec
+R IPv4 (xxx.xxx.xxx.xxx) has 4.3 billion addressesc
+R IPv6 provides a larger address space for the future.
+
+
+ MAC Address (Media Access ControlC
+R A unique identifier assigned to a device’s network adapterc
+R Example: 00:1A:2B:3C:4D:5Ec
+R Used within local networks but not on the broader internet.
+
+
+ Domain Names (Example: www.google.comC
+R Human-friendly names mapped to IP addresses via DNS (Domain Name
+System)c
+R DNS servers resolve domain names into IP addresses.
+
+
+ Routinr
+R Routers and gateways direct traffic efficientlyc
+R Packets take different routes to reach the destination efficiently
+
+
+Topic 1: How the Internet Works
+jc Overview of ISP & DNS Functionality
+
+
+ Internet Service Providers (ISP<
+b Companies like Jio, Airtel, BSNL provide internet access_
+b They act as intermediaries between users and the global internet.
+
+
+ How DNS WorkF
+b A user types www.google.com in a browser_
+b The browser contacts a DNS server to get the IP address_
+b The DNS translates the domain into an IP (e.g., 142.250.183.206)_
+b The browser connects to the website’s server using the IP
+Topic 2: Client-Server Architecture
+C. Introduction to the Client-Server Model
+
+
+ What is a ClientR
+/ A user’s device (computer, phone, tablet) that requests data from a serverK
+/ Examples: Web browsers, mobile apps.
+
+
+ What is a ServerR
+/ A powerful computer that stores and delivers content or servicesK
+/ Examples: Web servers, API servers, database servers.
+
+
+ Example:
+A client is like a customer at a restaurant, and the server is like a waiter bringing food
+from the kitchen.
+
+Y= HTTP Request/Response Cycle
+
+
+How It WorkS
+> Client sends a request (e.g., GET /index.html)3
+> Server processes the request3
+> Server responds with data3
+> Client displays the content.
+
+
+ HTTP MethodS
+> GET → Retrieve data3
+> POST → Send data (forms, logins)3
+> PUT → Update data3
+> DELETE → Remove data.
+
+
+ Example:
+A restaurant order – You (client) order pizza (GET), the kitchen (server) prepares it,
+and you receive it
