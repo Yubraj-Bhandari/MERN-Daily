@@ -1,0 +1,56 @@
+"Internet Protocols, HTTP/HTTPS & Dev Setup" 
+Internet Protocols:
+Internet protocols define the rules and standards for communication between devices over the internet. Some key protocols include:
+
+Transmission Control Protocol (TCP):
+
+A reliable, connection-oriented protocol.
+Ensures that data sent between devices is received in the correct order.
+It’s used in conjunction with IP (Internet Protocol) to form the TCP/IP suite.
+Internet Protocol (IP):
+
+Responsible for addressing and routing packets of data across the internet.
+There are two versions: IPv4 and IPv6.
+User Datagram Protocol (UDP):
+
+A simpler, connectionless protocol.
+Does not guarantee data delivery, making it faster than TCP in certain situations.
+Used in applications like streaming, gaming, and VoIP.
+Simple Mail Transfer Protocol (SMTP):
+
+Used to send emails across the internet.
+File Transfer Protocol (FTP):
+
+Used to transfer files between computers over a network.
+HTTP/HTTPS (HyperText Transfer Protocol):
+HTTP (HyperText Transfer Protocol):
+
+The protocol used for transferring web pages on the internet.
+It operates at the application layer of the OSI model.
+HTTP is stateless, meaning it doesn't retain information between requests.
+HTTPS (HyperText Transfer Protocol Secure):
+
+An extension of HTTP, adding security through encryption (SSL/TLS).
+Used to securely transfer data (like passwords, credit card information) between client and server.
+Commonly used by websites to ensure user privacy and prevent data interception.
+Dev Setup (Development Setup):
+Install a Text Editor:
+
+Use a text editor like VS Code or Sublime Text for coding.
+Set up extensions like Prettier, ESLint, and Live Server for efficient development.
+Install Node.js:
+
+Node.js is essential for running JavaScript outside the browser.
+Download from Node.js Official Site.
+Package Manager:
+
+Use npm (Node Package Manager) to manage dependencies.
+Install dependencies with: npm install <package-name>.
+Version Control with Git:
+
+Install Git and use it for version control.
+Initialize a Git repository: git init.
+Track changes and push them to GitHub using git add, git commit, and git push.
+Web Browser:
+
+Use a modern browser like Google Chrome or Mozilla Firefox for testing your web apps.
